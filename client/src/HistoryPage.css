@@ -1,0 +1,19 @@
+.history-container {
+    padding: 20px;
+}
+
+.code-history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.code-item {
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Adjust width to fit three items per row */
+    box-sizing: border-box;
+    overflow: auto; /* Enable scrolling if code is too long */
+}
