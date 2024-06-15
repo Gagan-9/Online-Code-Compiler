@@ -1,0 +1,20 @@
+
+/* Compiler.css */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.problem-details {
+    width: 50%; /* Display problem details on half of the screen */
+    display: none; /* Initially hide problem details */
+}
+
+/* Show problem details when active */
+.problem-details.active {
+    display: block;
+}
+
+/* Add any additional styles for the compiler component if needed */
+
+

@@ -1,0 +1,47 @@
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: purple;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: green;
+  }
+
+  .img-size {
+    width: 750px;
+    height: 500px;
+  }
+  
+  /* HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust margin between buttons */
+  }
+  
+  .button:hover {
+    background-color: darkpink;
+  }
+  
