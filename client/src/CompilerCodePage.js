@@ -109,7 +109,7 @@ function CompilerCodePage({ codeHistory, setCodeHistory }) {
   };
 
   return (
-    
+
     <div className="App">
       <h1>Online Code Compiler</h1>
       
