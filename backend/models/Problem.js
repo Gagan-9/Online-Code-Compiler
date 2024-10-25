@@ -21,7 +21,7 @@ const problemSchema = new mongoose.Schema({
   }
 });
 
-// Create the Problem model
+
 const Problem = mongoose.model('Problem', problemSchema);
 
 module.exports = Problem;
